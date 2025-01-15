@@ -36,12 +36,7 @@ public class MyCommandLineRunner implements CommandLineRunner {
         teacherRepository.save(teacher2);
 
 
-        //Fetch and display
-        System.out.println("Classrooms: ");
-        classroomRepository.findAll().forEach(System.out::println);
-
-        System.out.println("Teachers: ");
-        teacherRepository.findAll().forEach(System.out::println);
+    
 
 
 
