@@ -10,9 +10,6 @@ import lombok.ToString;
 import java.time.LocalDate;
 
 @Data
-@Getter
-@Setter
-@ToString
 @Entity (name = "Teachers")
 public class Teacher {
 
